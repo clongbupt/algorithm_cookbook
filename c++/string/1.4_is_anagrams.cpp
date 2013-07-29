@@ -3,7 +3,7 @@
  *
  * 判断方法可以是对每个单词各个字符的个数进行判断
  */
-char [] is_anagrams(char [] str1, char [] str2){
+bool is_anagrams(char str1[], char str2[]){
 	if(str1 == NULL || str2 == NULL)
 		return false;
 
